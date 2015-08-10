@@ -1,0 +1,21 @@
+*{
+	font: normal 16px/1.25  "Comic Sans MS", cursive;
+}
+
+h1{
+	color: blue;
+}
+
+h2{
+	font-size: 14px;
+}
+
+p{
+	font-size: 12px;
+	color: yellow;
+	background-color: black;
+}
+
+img{
+	border: 2px solid red;
+}
