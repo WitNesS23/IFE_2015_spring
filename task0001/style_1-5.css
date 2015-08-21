@@ -1,0 +1,70 @@
+html, body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h1{
+	color: blue;
+	text-align: center;
+
+	font: 25px/1.25 'Comic Sans MS', cursive;
+	font-weight: bolder;
+}
+
+li:nth-child(1){
+	text-transform: uppercase;
+}
+
+li:nth-child(1) + li{
+	text-decoration: line-through;
+	word-spacing: 50px;
+}
+
+h2{
+	font-size: 14px;
+	font: 16px/1.25  "Comic Sans MS", cursive;
+	text-indent: 2em;
+}
+
+p{
+	font-size: 12px;
+	color: yellow;
+	background-color: black;
+	
+	white-space: pre;
+}
+
+img{
+	border: 2px solid red;
+}
+
+/* 5. 让页面样式丰富起来 */
+/*
+text-indent 文本首行缩进 长度/百分比
+text-transform 定义文本大小写状态 capitalize首字母大写 uppercase大写 lowercase小写 none正常
+text-decoration 定义文本划线方式 underline下划线 overline上划线 line-through穿过 blink闪烁（仅仅FF） F
+text-align 定义文本的对齐形式 justify对齐每行的文字
+word-spacing 定义以空格间隔文字的间距（就是空格本身的宽度）
+white-space 空格内元素的显示方式 normal pre保持HTML源代码的空格与换行 nowrap强制一行除了br 
+                                 pre-wrap同pre但是遇到范围自动换行 pre-line同pre但是遇到连续空格看做一个
+color
+line-height
+font
+font-family
+font-size
+font-weight
+font-face 加载服务器端的字体文件
+@font-face{
+	font-family: ""; 字体名称
+	src: ""; 文件路径
+	font-style: 设置文本样式。
+	font-variant: 设置文本是否大小写。
+	font-weight: 设置文本的粗细。
+	font-stretch: 设置文本是否横向的拉伸变形。
+	font-size: 设置文本字体大小。
+}
+
+补: 
+letter-spacing 定义文本中字母的间距
+*/
