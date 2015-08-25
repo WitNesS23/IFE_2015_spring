@@ -135,6 +135,7 @@ header>a{
 
 .self_introduce{
 	margin-top: 100px;
+	height: 520px;
 	background-color: white;
 	position: relative;
 }
@@ -164,4 +165,65 @@ header>a{
 	font-size: 14px;
 	line-height: 1.7;
 	text-indent: 2em;
+}
+
+
+footer{
+	background-color: #000;
+	color: white;
+	
+}
+
+footer>section:nth-child(1){
+	width: 100%;
+	font-size: 12px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-bottom: 1px solid rgb(51,51,51);
+}
+
+footer>section>ul{
+	display: inline-block;
+}
+
+footer>section li{
+	float: left;
+	margin-left: 25px;
+}
+
+footer nav{
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+footer nav ul{
+	width: 20%;
+	margin-top: 40px;
+	float: left;
+	color: rgb(204,204,204);
+}
+
+footer nav li{
+	color: white;
+	margin-top: 10px;
+	color: white;
+}
+
+footer nav li:nth-child(1){
+	margin-top: 40px;
+}
+
+footer nav li:nth-child(2){
+	text-decoration: underline;
+}
+
+footer .rightInfo{
+	text-align: center;
+	margin-top: 70px;
+}
+
+footer .rightInfo p{
+	margin-bottom: 10px;
 }
