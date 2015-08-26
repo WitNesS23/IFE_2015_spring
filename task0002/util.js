@@ -1,13 +1,13 @@
 function isArry(arr) {
-	
+	return Object.prototype.toString.call(arr) == "[Object Array]";
 }
 
 function isFunction(fn) {
-
+	return Object.prototype.toString.call(fn) == "[Object Function]";
 }
 
 function cloneObject(src) {
-
+	
 }
 
 var srcObj = {
